@@ -14,32 +14,63 @@ Este proyecto es una aplicación de escritorio desarrollada con Tkinter, la bibl
 
 ## Instalación
 
-1. Clona el repositorio:
-    ```bash
+1. Crear una carpeta local, generar un entorno virtual y activarlo:
+
+   PowerShell
+    ```
+    pip install virtualenv
+    virtualenv "NombreDelEntorno"
+    ./venv/Scripts/actívate
+    ```
+
+    CMD
+    ```
+    pip install virtualenv
+    virtualenv "NombreDelEntorno"
+    venv\Scripts\activate
+    ```
+
+2. Inicializar un repositorio local:
+
+    Git Bash
+    ```
+    git init
+    ```
+
+3. Clonar repositorio remoto:
+
+    Git Bash
+    ```
     git clone https://github.com/JoseDuarte99/ProyectoInfo-Tkinter.git
-    cd ProyectoInfo-Tkinter
     ```
 
-2. Crea un entorno virtual y activa:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
-    ```
+4. Instala las dependencias desde la ubicación del archivo "requirements.txt":
 
-3. Instala las dependencias:
-    ```bash
+    PowerShell o CMD
+    ```
     pip install -r requirements.txt
     ```
 
-4. Para iniciar la aplicación, ejecuta el archivo "MenuDeJuegos.py" desde VScode:
+5. Comprobar paquetes instalados:
+
+    PowerShell o CMD
+    ```
+    pip list
+    ```
+
+6. Para iniciar la aplicación, ejecuta el archivo "MenuDeJuegos.py" desde VScode:
+   
 
 
 ## Uso
 
-1 - Abre el menú en la parte superior izquierda de la pantalla.
-2 - Selecciona la opción “Juegos”.
-3 - Elige el juego que deseas jugar de la lista desplegable.
-4 - ¡Disfrutar!.
+1. Abre el menú, en la parte superior izquierda de la pantalla. 
+
+2. Selecciona la opción “Juegos”.
+
+3. Elige el juego que deseas jugar de la lista desplegable.
+
+4. ¡Disfrutar!.
 
 
 ## Integrantes
