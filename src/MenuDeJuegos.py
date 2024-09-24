@@ -18,6 +18,8 @@ def BlackJack():
     subprocess.run(["python", "src/BlackJack.py"])
 def FlapyBird():
     subprocess.run(["python", "src/FlapyBird.py"])
+def TrianguloMagico():
+    subprocess.run(["python", "src/TrianguloMagico.py"])
 
 def hora():
     tiempo_actual = time.strftime("%H:%M:%S")
@@ -29,6 +31,7 @@ root = Tk()
 root.title("Menú De Juegos")
 root.geometry("640x427")
 root.resizable(False, False)
+root.iconbitmap(os.path.join(ruta_imagenes, "icon/Menu_icon.ico"))     # AÑADIENDO ICONO A ROOT
 
 # ---------------------------------------------------- MENU ----------------------------------------------------
 barra_menu = Menu(root)
@@ -46,6 +49,7 @@ submenu.add_command(label = "Ahorcado", command=Ahorcado)
 submenu.add_command(label = "Mesa de Apuestas", command=MesaDeApuestas)
 submenu.add_command(label = "Black Jack", command=BlackJack)
 submenu.add_command(label = "Flapy Bird", command=FlapyBird)
+submenu.add_command(label = "Triangulo Magico", command=TrianguloMagico)
 
 # ---------------------------------------------------- RELOJ ---------------------------------------------------
 root_hora = Frame (root, width="100", height="100", bd=2, relief="solid")

@@ -31,12 +31,16 @@ Este proyecto es una aplicación de escritorio desarrollada con Tkinter, la bibl
     pip install -r requirements.txt
     ```
 
+4. Para iniciar la aplicación, ejecuta el archivo "MenuDeJuegos.py" desde VScode:
+
+
 ## Uso
 
-Para iniciar la aplicación, ejecuta el siguiente comando:
-```bash
-python ManuDeJuegos.py
-```
+1 - Abre el menú en la parte superior izquierda de la pantalla.
+2 - Selecciona la opción “Juegos”.
+3 - Elige el juego que deseas jugar de la lista desplegable.
+4 - ¡Disfrutar!.
+
 
 ## Integrantes
 
