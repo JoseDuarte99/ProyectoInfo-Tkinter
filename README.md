@@ -20,14 +20,14 @@ Este proyecto es una aplicación de escritorio desarrollada con Tkinter, la bibl
     ```
     pip install virtualenv
     virtualenv "NombreDelEntorno"
-    ./venv/Scripts/actívate
+    ./"NombreDelEntorno"/Scripts/activate
     ```
 
     CMD
     ```
     pip install virtualenv
     virtualenv "NombreDelEntorno"
-    venv\Scripts\activate
+    "NombreDelEntorno"\Scripts\activate
     ```
 
 2. Inicializar un repositorio local:
