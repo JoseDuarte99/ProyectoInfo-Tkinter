@@ -80,4 +80,4 @@ Este proyecto es una aplicación de escritorio desarrollada con Tkinter, la bibl
 - Duarte Jose
 - Parra Cristian
 - Quintana Ruben
-- Sosa Fernando
+- Sosa Francisco
